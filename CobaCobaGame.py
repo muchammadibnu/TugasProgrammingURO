@@ -36,7 +36,7 @@ while True:
        exec("count=podsP"+str(my_id))
        Zones.append(ownerId)
        if count:
-           zone_present.append([zId,ownerId,count])
+           zone_present.append([zId,ownerId,count]) 
    
    #moving
    for zone in zone_present:
